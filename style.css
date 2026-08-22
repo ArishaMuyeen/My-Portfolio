@@ -12,7 +12,7 @@
 
 
     .navbarSection {
-      background-color: #F9F8F6;
+      background-color: #EFE9E3;
       height: 60px;
       display: flex;
       flex-direction: row;
@@ -128,7 +128,7 @@
 
 
     .projectSection {
-      background-color: #F9F8F6;
+      background-color: #EFE9E3;
       padding: 15px;
     }
 
@@ -183,15 +183,17 @@
 
 
     .stackSection {
-      background-color: #F9F8F6;
+      background-color: #D9CFC7;
       padding: 30px;
     }
 
 
     .aboutSection {
-      background-color: #EFE9E3;
-      padding: 20px;
+      background-color: #F9F8F6;
+      padding: 40px 20px;
       text-align: center;
+      border-top: 2px solid #C9B59C;
+      border-bottom: 2px solid #C9B59C;
     }
 
     .aboutTitle {
@@ -207,12 +209,85 @@
       color: #613703;
     }
 
+
+
+
+      .InfoMeSection {
+      background-color: #EFE9E3;
+      padding: 40px 20px;
+      text-align: center;
+      padding-top: 75px;
+    }
+
+    .InfoMeTitle {
+      font-family: "Chewy", system-ui;
+      font-size: 30px;
+      color: #613703;
+    }
+
+
+    .InfoMeDesc {
+      font-family: "Chewy", system-ui;
+      font-size: 18px;
+      color: #613703;
+      border-radius: 100px;
+      width: 200px;
+      height: 200px;
+    }
+
+
+    .INFOME {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+
+    .SMMuyeenInfo,
+    .ArishaInfo {
+      background-color: #F9F8F6;
+      border: 2px solid #C9B59C;
+      border-radius: 10px;
+      padding: 25px;
+    }
+
+
+    .SMMuyeenInfo h3,
+    .ArishaInfo h3,
+    .SMMuyeenInfo p,
+    .ArishaInfo p {
+      color: #613703;
+      font-family: "Chewy", system-ui;
+    }
+
+
+    .SMMuyeenInfo p,
+    .ArishaInfo p {
+      font-size: 18px;
+    }
+
+
+
+
+
+
     .contactSection {
+      background-color: #F9F8F6;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       padding: 30px;
+      border-top: 2px solid #C9B59C;
+    }
+
+
+    @media (max-width: 700px) {
+      .INFOME {
+        grid-template-columns: 1fr;
+      }
     }
 
     .contactTitle {
