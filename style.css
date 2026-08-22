@@ -227,10 +227,7 @@
 
 
     .InfoMeDesc {
-      font-family: "Chewy", system-ui;
-      font-size: 18px;
-      color: #613703;
-      border-radius: 100px;
+      border-radius: 1000px;
       width: 200px;
       height: 200px;
     }
