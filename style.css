@@ -227,7 +227,7 @@
 
 
     .InfoMeDesc {
-      border-radius: 1000px;
+      border-radius: 100px;
       width: 200px;
       height: 200px;
     }
@@ -280,12 +280,6 @@
       border-top: 2px solid #C9B59C;
     }
 
-
-    @media (max-width: 700px) {
-      .INFOME {
-        grid-template-columns: 1fr;
-      }
-    }
 
     .contactTitle {
       font-family: "Chewy", system-ui;
